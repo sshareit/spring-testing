@@ -11,9 +11,6 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @WebMvcTest(CustomerController.class)
-//@ContextConfiguration(
-//    classes = {CustomerController.class, CustomerService.class, EntityManagerFactory.class}
-//)
 class CustomerControllerTest {
 
     @Autowired
